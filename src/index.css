@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-background: url(http://wallpapers-images.ru/1920x1080/nature/wallpapers/nature-wallpapers-1920x1080-00016.jpg) !important;
-
+background: url('./assets/img/back.jpg') !important;
+background-repeat: no-repeat;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -29,7 +29,6 @@ code {
   margin: auto;
 }
 .card{
-  background: none;
   opacity: 0.95;
   height: 250px;
   width: 400px;
