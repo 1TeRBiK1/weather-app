@@ -20,13 +20,13 @@ code {
   height: 150px;
   width: 150px;
 }
-html{
-}
 .weatherToday{
-  width: 100vw;
+  width: 65vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  height: 360px;
+  margin: auto;
 }
 .card{
   background: none;
@@ -97,4 +97,37 @@ html{
 }
 .search{
   margin-right: 5px;
+}
+.map{
+  width: 360px;
+  height: 360px;
+}
+.firstRow{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.9fr;
+  gap: 17px 8px;
+  grid-template-areas:
+    ". .";
+}
+.weatherOtherDays{
+  display: flex;
+  justify-content: space-around;
+}
+.cardToday{
+  margin: auto;
+}
+.city{
+  padding: 0px 0px 0px 109px;
+}
+
+.infoOtherDays{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.9fr;
+  gap: 0px;
+  grid-template-areas:
+    ". . . .";
+  margin-top: -15px;
 }
