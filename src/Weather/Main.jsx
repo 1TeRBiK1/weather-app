@@ -1,10 +1,13 @@
 import React from 'react'
+import WeatherOtherDays from './WeatherOtherDays'
+import WeatherToday from './WeatherToday'
 
 export default function Main(){
 
     return(
         <div>
-            Main
+            <WeatherToday />
+            <WeatherOtherDays />
         </div>
     )
 

@@ -1,1 +1,2 @@
 export const GET_POSITION = 'GET_POSITION'
+export const GET_WEATHER_TODAY = 'GET_WEATHER_TODAY'

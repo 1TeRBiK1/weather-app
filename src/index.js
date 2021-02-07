@@ -15,6 +15,7 @@ store.dispatch(getPosition())
 
 window.store = store
 
+
 ReactDOM.render( 
     <Provider store={store}>
         <App />
